@@ -1,0 +1,81 @@
+/* Azzero le grandezze predefinite */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Immagine allo sfondo + Colore testo */
+body {
+    background-image: url(SFONDO.jpg);
+    color: white;
+    margin: 50px;
+}
+
+/* Contenitore Pticipale */
+.contenitorePricipale {
+    width: 1000px;
+}
+
+/* Testo Logo */
+.text-logo {
+    display: inline-block;
+    font-size: 25px;
+}
+
+/* Dimensione Testo h2 */
+h2 {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+/* Colore sfondo + arrotondamento del numero 30 */
+.text-30 {
+    background-color: orange;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+/* Grandezza contenitore Email */
+.cont-3 {
+    display: inline-block;
+    width: 30%;
+}
+
+/*Grandezza contenitore Ogetto Email */
+.cont-4 {
+    display: inline-block;
+    width: 60%;
+}
+
+/* Sfondo e Bordi dei contenitori (1, 2, 4) */
+.contenitore-1, .contenitore-2, .contenitore-4{
+    background-color: grey;
+    border-bottom: 3px solid black;
+    color: black;
+    padding-left: 2px;
+}
+
+/* Sfondo e Bordi dei contenitore (3, 5) */ 
+.contenitore-3, .contenitore-5 {
+    background-color: white;
+    border-bottom: 3px solid black;
+    color: black;
+    padding-left: 2px;  
+}
+
+/* Accentro il testo in fondo */
+.cont-5 {
+    text-align: center;
+}
+
+/* Grandezza testo */
+.text-gmail {
+    font-size: 25px ;
+}
+
+/* Spazio tra hr e gli elementi */
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
