@@ -1,0 +1,48 @@
+/* Azzero le proporzioni che da la pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Colore allo sfondo */
+body {
+    background-color: green;
+}
+
+/* Contenitore Genitori */
+.contenitore-1, .contenitore-2 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid black;
+    position: relative;
+}
+
+/* Contenitori Figli */
+.cont-1, .cont-2, .cont-3, .cont-4 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.cont-4 {
+    position: absolute;
+    left: 25px;
+}
+
+.cont-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.cont-1 {
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+
+
