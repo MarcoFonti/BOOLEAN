@@ -1,0 +1,73 @@
+/* Azzero il Default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Colore dello Sfondo */
+body {
+    background-color: rgb(218, 210, 210);
+}
+
+/* Sposto il contenitore dei contenuiti */
+.contenitorePrincipale {
+    padding: 20px;
+}
+
+/* Modifico il link + */
+.cont-1 a {
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+
+/* Margine Superiore del contenitore 2 */
+.cont-2 {
+    margin-top: 25px;
+}
+
+/* Modifico il Titolo */
+.titolo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Modifico il Link del simbolo See All */
+.cont-2 a {
+    float: right;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Linea */
+hr {
+    margin-top: 10px;
+    height: 3px;
+}
+
+/* Margine Superirore del contenitore degli Album */
+.contenitoreAlbum {
+    margin-top: 30px;
+}
+
+/* Tutti i Genitori delle Foto */
+.album {
+    float: left;
+    margin: 5px;
+    width: calc(100% / 6 - 10px);
+    height: 150px;
+    background-color: brown;
+    margin-bottom: 50px;
+}
+
+/* Dimensioni Immagini */
+.album img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Colore ai Numeri */
+.numero {
+    color: rgb(131, 123, 123);
+}
